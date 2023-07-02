@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade formulário</title>
+</head>
+<body>
+<form action="#" method="post">
+<fieldset>
+<h1>Formulário</h1>
+<fieldset>
+    <legend>Dados Pessoais</legend>
+    <div>
+    <label for="Nome">Nome:</label>
+    <input type="text" name="nome" id="nome" placeholder="digite seu nome" size="23" maxlength="30">
+    </div>
+    <div>
+        <label for="Endereço">Endereço:</label>
+        <input type="text" name="Endereço" id="endereço" size="20" placeholder="digite seu endereço">
+    </div>
+    <div>
+        <label for="Cidade">Cidade:</label>
+        <input type="text" name="Cidade" id="cidade" size="22" placeholder="sua cidade">
+    </div>
+    <div>
+        <label for="">Estado:</label>
+        <select name="Estado" id="Estado">
+            <option value="1">AC</option>
+            <option value="2">AL</option>
+            <option value="3">AP</option>
+            <option value="4">AM</option>
+            <option value="5">BA</option>
+            <option value="6">CE</option>
+            <option value="7">ES</option>
+            <option value="8">GO</option>
+            <option value="9">MA</option>
+            <option value="10">MT</option>
+            <option value="11">MS</option>
+            <option value="12">MG</option>
+            <option value="13">PA</option>
+            <option value="14">PB</option>
+            <option value="15">PR</option>
+            <option value="16">PE</option>
+            <option value="17">PI</option>
+            <option value="18">RJ</option>
+            <option value="19">RN</option>
+            <option value="20">RS</option>
+            <option value="21">RO</option>
+            <option value="22">RR</option>
+            <option value="23">SC</option>
+            <option value="24">SP</option>
+            <option value="25">SE</option>
+            <option value="26">TO</option>
+        </select>
+    </div>
+</fieldset>
+<br>
+<fieldset>
+
+
+            <legend>Dados Profissionais</legend>
+        <div>
+        <label>Natureza do cargo:</label><br>
+        <input type="radio" name="Gerência" id="Gerência">
+        <label>Gerência</label>
+        <input type="radio" name="Financeiro" id="Financeiro">
+        <label>Financeiro</label>
+        <input type="radio" name="Recepção" id="Recepção">
+        <label>Recepção</label>
+        <input type="radio" name="Administrativo" id="Administrativo">
+        <label>Administrativo</label>
+        <input type="radio" name="Jurídico" id="Jurídico">
+        <label>Jurídico</label>
+        </div>
+        <br> 
+        <div>
+            <label>Área de interesse:</label><br>
+            <input type="checkbox" name="Computação" id="Computação">
+            <label>Computação</label>
+            <input type="checkbox" name="Biologia" id="Biologia">
+            <label>Biologia</label>
+            <input type="checkbox" name="Meio Ambiente" id="Meio Ambiente">
+            <label>Meio Ambiente</label>
+            <input type="checkbox" name="Engenharia" id="Engenharia">
+            <label>Engenharia</label>
+            <input type="checkbox" name="História" id="História">
+            <label>História</label> 
+            <br>
+            <br>
+            <label for="Currículo">Mini-Currículo:</label>     <textarea name="Currículo" id="Currículo" cols="50" rows="08" placeholder="Escreva as principais informações do seu currículo"></textarea>
+        </div>
+</fieldset>
+<br>
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+</fieldset>
+
+
+</form>
+</body>
+</html>
